@@ -1,0 +1,21 @@
+{
+  "name": "raksha-backend",
+  "version": "1.0.0",
+  "description": "RAKSHA API server - safety and well-being platform backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nanoid": "^5.0.7"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
